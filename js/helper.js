@@ -138,7 +138,7 @@
       // https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop
       model.education.schools.forEach(function(school){
         // console.log(model.education.schools[0].location);
-        locations.push(model.education.schools.location);
+        locations.push(school.location);
         // console.log(locations);
       });
 
@@ -147,7 +147,7 @@
       // as described in the Udacity FEND Style Guide:
       // https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop
       model.work.jobs.forEach(function(job){
-        locations.push(model.work.jobs.location);
+        locations.push(job.location);
         console.log(locations);
       });
 
