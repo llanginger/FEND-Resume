@@ -19,6 +19,14 @@ h6 {
   font-weight: 400;
 }
 
+.lived {
+  display: inline-block;;
+  vertical-align: bottom;
+  height: 50px;
+  margin: 0px 5%;
+}
+
+
 .clear-fix {
   overflow: auto;
 }
@@ -235,9 +243,23 @@ span {
   height: 200px;
   max-width: 100%;
   padding-bottom: 5%;
-  margin: 20px 5%;
+  /*margin-top: 30px;*/
+  margin: 30px 5%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+#mapDiv:after {
+  position: absolute;
+  font-size: 40px;
+  pointer-events: none;
+  text-align: center;
+  top: 110px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  content: "WHERE I'VE LIVED, STUDIED AND WORKED";
 }
 
 @media only screen and (min-width: 749px) {
