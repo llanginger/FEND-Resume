@@ -22,6 +22,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/arcade-game-wide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112692,
+		"inputAbbreviatedPath": "\/images\/arcade-game-wide.png",
+		"outputAbbreviatedPath": "\/images\/arcade-game-wide.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/cover-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -95,6 +106,39 @@
 		"initialSize": 33362,
 		"inputAbbreviatedPath": "\/images\/pronica.jpg",
 		"outputAbbreviatedPath": "\/images\/pronica.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/rst.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 716998,
+		"inputAbbreviatedPath": "\/images\/rst.png",
+		"outputAbbreviatedPath": "\/images\/rst.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/take-me-lg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187871,
+		"inputAbbreviatedPath": "\/images\/take-me-lg.png",
+		"outputAbbreviatedPath": "\/images\/take-me-lg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/what-did-we-eat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53872,
+		"inputAbbreviatedPath": "\/images\/what-did-we-eat.png",
+		"outputAbbreviatedPath": "\/images\/what-did-we-eat.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

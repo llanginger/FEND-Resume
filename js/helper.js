@@ -38,10 +38,10 @@
   var HTMLworkDescription = '<p><br>%data%</p>';
 
   var HTMLprojectStart = '<div class="project-entry"></div>';
-  var HTMLprojectTitle = '<a href="#">%data%</a>';
+  var HTMLprojectTitle = '<a href="%linkData%" target="_blank">%data%</a>';
   var HTMLprojectDates = '<div class="date-text">%data%</div>';
   var HTMLprojectDescription = '<p><br>%data%</p>';
-  var HTMLprojectImage = '<div class="bg-grey"><img src="%data%" class="img-responsive"></div>';
+  var HTMLprojectImage = '<div class="bg-grey"><a href="%linkData%" target="_blank"><img src="%data%" class="img-responsive"></a></div>';
 
   var HTMLschoolStart = '<div class="education-entry"></div>';
   var HTMLschoolName = '<a href="#">%data%<hr>';
@@ -150,7 +150,7 @@
         locations.push(job.location);
         console.log(locations);
       });
-
+      locations.push("Barcelona", "Costa Rica", "India", "Monaco");
       return locations;
     }
 

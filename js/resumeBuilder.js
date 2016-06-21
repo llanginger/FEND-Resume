@@ -3,25 +3,25 @@
 		work: {
 			jobs: [
 				{
-					employer : "Self-employed",
+					employer : "Self-Employed",
+					title : "Front End Web Developer",
+					location : "Seattle",
+					dates : "Current",
+					description : "At the start of 2016 I decided to change career paths and learn to program. I've always had a love for computers so the change not only seemed obvious but was also deeply exciting to me. Several months later, my excitement has only grown and I'm looking forward to what my future holds!"
+				},
+				{
+					employer : "Self-Employed",
 					title : "Composer",
 					location : "Seattle",
 					dates : "All my life",
-					description : "ANullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+					description : "During my career as a composer I have written music for short films, award-winning multi-media projects, big-name agency ads, Ivy-league school promotional-pieces and more. My passion has always been to work to enhance complex work with my contribution. During my time in music I learned how to interpret the meaning behind my clients' requests so that they never feel ignored or worse."
 				},
 				{
 					employer : "Butter Music and Sound.",
 					title : "Assistant Composer.",
 					location : "Manhattan.",
 					dates : "2013-14.",
-					description : "Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-				},
-				{
-					employer : "Anglian",
-					title : "Salesman",
-					location : "Guildford",
-					dates : "2008-9",
-					description : "Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+					description : "While at Butter Music and Sound, first as an intern and then later as an assistant-composer, I worked on producing demos for multiple high-profile ad campaigns, as well as assisting the more senior composers when required. After my internship concluded, I was tasked with reformatting and lengthening dozens of preexisting tracks in the company's library so as to make them appropriate to market as a standalone music library."
 				}
 			]
 
@@ -29,22 +29,46 @@
 		projects: {
 		    projects: [
 					{
+						title : "What Did We Eat Now?",
+						dates : "May, 2016",
+						description : "A calorie-counting app designed to demonstrate a robust understanding of complex MV* (Backbone.js used in this project) concepts and applications",
+						images : ["images/what-did-we-eat.png"],
+						link : "http://llanginger.github.io/health-tracker/"
+					},
+					{
+						title : "Take Me Somewhere New",
+						dates : "April, 2016",
+						description: "An app for enabling the user to discover new places and help them break their routines up. The purpose of the project was to get familiar and comfortable with using an MV* framework (Knockout.js), multiple 3rd party APIs and making AJAX requests to form a cohesive experience",
+						images: ["images/take-me-lg.png"],
+						link : "http://llanginger.github.io/FEND-neighborhoodMap/"
+					},
+					{
+						title : "Retro Arcade Clone",
+						dates : "March, 2016",
+						description : "A fun little retro arcade game (Frogger) clone. The purpose of this project was to get comfortable working from some degree of pre-existing code, implementing new features and learning how js features such as requestAnimationFrame work",
+						images : ["images/arcade-game-wide.png"],
+						link : "http://llanginger.github.io/FEND-Frogger/"
+					},
+					{
 						title : "Lenovo Ashton Kutcher.",
 						dates : "Late 2013.",
-						description : "Wrote all music and supervised recording session for a tv Ad for Lenovo featuring Ashton Kutcher. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.",
-						images : ["./images/a-kut.jpg"]
+						description : "Wrote all music and supervised recording session for a Lenovo TV ad featuring Ashton Kutcher. ",
+						images : ["images/a-kut.jpg"],
+						link : "https://vimeo.com/84821818"
 					},
 					{
 						title : "Raising Sleeping Stones.",
 						dates : "2012-2014.",
-						description : "Co-wrote over 2 hrs of orchestral music. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna.",
-						images : [""]
+						description : "Co-wrote over 2 hrs of orchestral music for an award-winning, first-of-its-kind multi-media novel.",
+						images : ["images/rst.png"],
+						link : "http://raisingstones.com/index.html"
 					},
 					{
 						title : "Pronica.",
 						dates : "2014-15.",
-						description : "I was responsible for all audio in this project.Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna.",
-						images : ["./images/pronica.jpg"]
+						description : "I was responsible for all music and audio post-production in this project.",
+						images : ["images/pronica.jpg"],
+						link : "http://pronica.org/"
 					}
 			]
 		},
@@ -78,7 +102,7 @@
 			onlineCourses: [
 				{
 					school : "Udacity",
-					title : "Nanodegree",
+					title : "Front End Web Developer Nanodegree",
 					dates : "2016",
 					location : "Online",
 					url :  "www.udacity.com"
@@ -163,13 +187,13 @@
 			// featured projects
 			for (var project in projects){
 				$("#projects").append(HTMLprojectStart);
-				var formattedTitle = HTMLprojectTitle.replace("%data%", projects[project].title);
+				var formattedTitle = HTMLprojectTitle.replace("%data%", projects[project].title).replace("%linkData%", projects[project].link);
 				var formattedDates = HTMLprojectDates.replace("%data%", projects[project].dates);
 				var formattedDescription = HTMLprojectDescription.replace("%data%", projects[project].description);
 				$(".project-entry:last").append(formattedTitle, formattedDates, formattedDescription);
 				if (projects[project].images.length > 0){
 					for (var image in projects[project].images){
-						var formattedImage = HTMLprojectImage.replace("%data%", projects[project].images[image]);
+						var formattedImage = HTMLprojectImage.replace("%data%", projects[project].images[image]).replace("%linkData%", projects[project].link);
 						$(".project-entry:last").append(formattedImage);
 					}
 				}
@@ -198,6 +222,7 @@
 
 			// where I've lived/worked
 			$("#mapDiv").append(googleMap);
+			$("#mapDiv").prepend("<h2>HELLO</h2>")
 		}
 	}
 
